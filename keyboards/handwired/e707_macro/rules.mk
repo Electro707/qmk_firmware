@@ -1,0 +1,18 @@
+# MCU name
+MCU = atmega32u4
+
+# Bootloader selection
+BOOTLOADER = atmel-dfu
+
+F_CPU = 16000000
+ARCH = AVR8
+F_USB = $(F_CPU)
+
+ENCODER_ENABLE = yes
+
+RGB_MATRIX_ENABLE = yes
+RGB_MATRIX_DRIVER = IS31FL3236
+
+AUDIO_ENABLE = no
+
+# DIP_SWITCH_ENABLE = yes
